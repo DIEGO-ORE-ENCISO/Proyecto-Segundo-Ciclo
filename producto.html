@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Productos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/productos.css'>
+    <!--LINK DE TIPOS DE LETRAS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Merriweather:ital,wght@1,900&family=Quicksand:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e8faa626d.js" crossorigin="anonymous"></script>
+    <!--LINK DE TIPOS DE LETRAS -->
+</head>
+
+<body>
+    <div class="imgHeader">
+           <div class="slider-contenedor">
+                <img id="imgcab"  class="imgHeader-F" src="ProductosIndex/productosprox.jpg">
+                <h1 id="txtCul" >CUE ELITE LCD</h1>
+                <p id="txtP">Refrigeradores líquidos para CPU integrales con<br>
+                     RGB iCUE integrados paraconseguir un equipo<br>
+                      que destaca en todos los sentidos de la palabra.
+                </p>
+                <h2 id="txtH">PROXIMAMENTE</h2>
+            </div>
+    </div>
+    <!--MENUS HEADER-->
+    <div id="pas">
+        <img id="img1" src="imganes/logop-removebg-preview.png" width="200" height="150" data-i="0"
+            onmouseover="overpas(this)" onmouseout="outpas(this)">
+        <div id="pas2">
+            <h1>Menú</h1>
+            <div class="icono-menu">
+                <img id="icono-menu" src="imganes/bars-solid.svg" width="30" height="30">
+            </div>
+        </div>
+
+        <div class="cont-menu active" id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Contactos.html">Contactos</a></li>
+            </ul>
+        </div>
+    </div>
+  
+       
+        
+    <div class="contenido">
+            <div id="ofertas">
+                <h3 class="linea-efecto">NUESTROS PRODUCTOS <br> MAS BUSCADOS</h3>
+            </div>
+            <section>
+              
+        <div class="cont-menu-go">
+            <div class="cont-enlace">
+                <div class="opcion">
+                    <p> Marca </p>
+                    <p class="icono"> + </p>
+                </div>
+    
+                <div class="enlace">
+                    <a href="#"> GIGABYTE </a>
+                    <a href="#"> MSI </a>
+                    <a href="#"> ASUS </a>
+                </div>
+            </div>
+    
+            <div class="cont-enlace">
+                <div class="opcion">
+                    <p> Memoria RAM </p>
+                    <p class="icono"> + </p>
+                </div>
+    
+                <div class="enlace">
+                    <a href="#"> 4GB </a>
+                    <a href="#"> 8GB </a>
+                    <a href="#"> 16GB </a>
+                </div>
+            </div>
+    
+          
+            <div class="cont-enlace">
+                <div class="opcion">
+                    <p> Placa de Video </p>
+                    <p class="icono"> + </p>
+                </div>
+    
+                <div class="enlace">
+                    <a href="#"> NVIDIA GTX </a>
+                    <a href="#"> NVIDIA RTX </a>
+                    <a href="#"> AMD Radeon </a>
+                </div>
+            </div>
+
+            <div class="cont-enlace">
+                <div class="opcion">
+                    <p> Procesadores </p>
+                    <p class="icono"> + </p>
+                </div>
+    
+                <div class="enlace">
+                    <a href="#"> INTEL </a>
+                    <a href="#"> RYZEN </a>
+                </div>
+            </div>
+            
+            <div class="cont-enlace">
+                <div class="opcion">
+                    <p> Monitores </p>
+                    <p class="icono"> + </p>
+                </div>
+    
+                <div class="enlace">
+                    <a href="#"> HUAWEI </a>
+                    <a href="#"> XIAOMI </a>
+                    <a href="#"> GIGABYTE </a>
+                </div>
+            </div>
+            
+            <div class="cont-enlace">
+                <div class="opcion">
+                    <p> Laptops </p>
+                    <p class="icono"> + </p>
+                </div>
+    
+                <div class="enlace">
+                    <a href="#"> ASUS </a>
+                    <a href="#"> HP </a>
+                </div>
+            </div>
+        </div> 
+                </main>
+                <main class="mostrador" id="mostrador">
+                    <div class="busqueda">Buscar:
+                        <div>
+                            <input type="text" name="" id="buscar-producto"
+                                placeholder=" Ingrese su producto aquí" onkeyup="search()">
+                        </div>
+                    </div>
+                    <div class="productos" id="productos">
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/monitor_huawei_mate_view.png" alt="">
+                            <p>MONITOR HUAWEI MATEVIEW</p>
+                            <p class="descripcion">Pantalla de 35"<br>Diseño supercurvo<br>Tecnologia HDR10</p>
+                            <h1>S/. 2430.00</h1>
+                            <h4><a href="Venta.html">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/laptop_hp_pavilion.png" alt="">
+                            <p>LAPTOP HP PAVILION</p>
+                            <p class="descripcion">Disco sólido SSD 512 GB<br>Procesador Core I7 11TH<br>RAM 16GB</p>
+                            <h1>S/. 7000.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+        
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/steelseries_arctis_5.png" alt="">
+                            <p>AUDIFONOS STEELSERIES ARCTIS 5</p>
+                            <p class="descripcion">Unidad de diafragma 40mm<br>Sensibilidad 98dB<br>Respuesta de
+                                frecuencia 20 Hz</p>
+                            <h1>S/. 1100.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/memoria_ram_kingston.png" alt="">
+                            <p>MEMORIA RAM KINGSTON FURY</p>
+                            <p class="descripcion">32 GB<br>6400MT/s<br>DDR5 CL32</p>
+                            <h1>S/. 630.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/mouse_gamer_logitech_G203.png" alt="">
+                            <p>MOUSE GAMER LOGITECH G203</p>
+                            <p class="descripcion">800 DPI<br>Memoria integrada<br>Mapeo de pantalla</p>
+                            <h1>S/. 140.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/procesador_intel_core_i7.png" alt="">
+                            <p>PROCESADOR INTEl CORE I17</p>
+                            <p class="descripcion">8 Nucleos<br>16 Hilos<br>16 MB de caché</p>
+                            <h1>S/. 1400.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/gigabyte_nvidia_geforc_gtx.png" alt="">
+                            <p>TAJETA GRAFICA GIGABYTE RTX</p>
+                            <p class="descripcion">2 ventiladores Windforce<br>4 GB<br>128 bits</p>
+                            <h1>S/. 2005.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/silla_gamer_roja.png" alt="">
+                            <p>SILLA GAMER PLAYERS</p>
+                            <p class="descripcion">Altura regulable 113-123<br>Recubierta de PU<br>Incluye cojin de
+                                cabeza y lumbar</p>
+                            <h1>S/. 370.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/teclado_reddragon_kumara_k552.png" alt="">
+                            <p>TECLADO GAMER REDRAGON K630</p>
+                            <p class="descripcion">Con RGB<br>Resiste salpicaduras<br>Teclado mecanico</p>
+                            <h1>S/. 150.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/chasis_lenovo_rgb.png" alt="">
+                            <p>DESKTOP GAMER LEGION TOWER INTEL</p>
+                            <p class="descripcion">Opciones de ilumninaciones deslumbrantes<br>Rendimiento para largas
+                                horas de juego<br>Tarjeta grafica NVIDIA</p>
+                            <h1>S/. 4200.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/procesador_ryzen_3_3100_amd.png" alt="">
+                            <p>PROCESADOR RYZEN 3 AMD</p>
+                            <p class="descripcion">4 Nucelo CPU<br>4TH generacion<br>Velocidad 3.80 GHZ de base</p>
+                            <h1>S/. 550.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/mousepad_redragon_P027_rgb.png" alt="">
+                            <p>MOUSEPAD REDRAGON P027 RGB</p>
+                            <p class="descripcion">Tamaño XXL<br>80cm x 30cm<br>3 mm de espesor</p>
+                            <h1>S/. 109.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/microfono_redragon_gm200.png" alt="">
+                            <p>MICROFONO REDRAGON GM200</p>
+                            <p class="descripcion">Material de metal<br>Condensador cardioide 16 mm<br>Unidireccionals
+                            </p>
+                            <h1>S/. 270.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/silla_gamer_power.png" alt="">
+                            <p>SILLA GAMER POWER</p>
+                            <p class="descripcion">Peso 14.5 Kg<br>Medidas 84x59x28<br>Color Rojo</p>
+                            <h1>S/. 380.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/refrigeración_liquida_masterliquid.png" alt="">
+                            <p>COOLER DE REGRIGERACION LÍQUIDA MASTERLIQUID</p>
+                            <p class="descripcion">Radiador de aluminio<br>120 x 120 x 25 mm<br>Con RGB</p>
+                            <h1>S/. 630.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/teclado_redragon_blanco_rgb.png" alt="">
+                            <p>TECLADO GAMER REDRAGON BLANCO</p>
+                            <p class="descripcion">Color blanco<br>Teclado mecanico<br>Con RGB</p>
+                            <h1>S/. 209.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/audifono_logitech_blanco.png" alt="">
+                            <p>AUDIFONOS LOGITECH BLANCO</p>
+                            <p class="descripcion">Con RGB<br>Alcance de 20 M<br>Respuesta de frecuencia 20Hz - 20kHz
+                            </p>
+                            <h1>S/. 597.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/audifono_hyperx_cloud_stinger.png" alt="">
+                            <p>AUDIFONOS HYPERX CLOUD STINGER</p>
+                            <p class="descripcion">Unidireccional con cancelacion de ruido<br>Con almohadillas para las
+                                orejas<br>Conexion por audifonos</p>
+                            <h1>S/. 179.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/mouse_gamer_razer_deathadder.png" alt="">
+                            <p>MOUSE GAMER RAZER DEATHADDER</p>
+                            <p class="descripcion">Alambrico<br>Conexion USB<br>Sensor optico</p>
+                            <h1>S/. 200.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/mousepad_steelseries.png" alt="">
+                            <p>MOUSEPAD STEELSERIES</p>
+                            <p class="descripcion">Paño micro tejido legendario<br>Mejor presicion del mouse<br>Base
+                                antideslizante</p>
+                            <h1>S/. 50.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/monitor_gamer_gibyte.png" alt="">
+                            <p>MONITOR GAMER GIGABYTE</p>
+                            <p class="descripcion">48 "<br>144 hz<br>Resolucion de pantalla 4K</p>
+                            <h1>S/. 8700.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/parlante_leerfei.png" alt="">
+                            <p>PARLANTE LEERFEI</p>
+                            <p class="descripcion">Parlante Woofer<br>Potencia 6 W<br>Peso de 644g</p>
+                            <h1>S/. 400.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/asus_tuf_gaminf_f15.png" alt="">
+                            <p>LAPTOP ASUS TUF GAMING F15</p>
+                            <p class="descripcion">Almacenamiento 512GB<br>Procesador Core I7<br>RAM 16GB</p>
+                            <h1>S/. 5000.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/microfono_razer_seiren.png" alt="">
+                            <p>MICROFONO RAZER SEIREN</p>
+                            <p class="descripcion">Tiene un patrón de recogida supercardiode<br>Autoenfoque
+                                vocal<br>Reduccion de ruido</p>
+                            <h1>S/. 320.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/cooler_laptop_grande_rgb.png" alt="">
+                            <p>COOLER RGB</p>
+                            <p class="descripcion">2 Puertos USB<br>5 ventiladores<br>Plastico y malla de hierro</p>
+                            <h1>S/. 70.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                        <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/silla_gamer_negra_jiqiad.png" alt="">
+                            <p>SILLA GAMER JIQIAD NEGRA</p>
+                            <p class="descripcion">Cojin de cabeza y lumbar<br>Altura regulable<br>Reclinación ajustable
+                                180°</p>
+                            <h1>S/. 620.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                       <!-- <article onmouseover="pad(this)" onmouseout="apad(this)">
+                            <img src="imganes/productos/monitor_gamer_curvo_xiaomi.png" alt="">
+                            <p>MONITOR GAMER CURVO XIAOMI</p>
+                            <p class="descripcion">34 "<br>144 hz<br>Resolucion de pantalla UHD 4K</p>
+                            <h1>S/. 1899.00</h1>
+                            <h4><a href="">COMPRAR</a></h4>
+                        </article>
+                    </div>-->
+
+                </main>
+            </section>
+
+        </div>
+        <div id="enlas">
+                <nav id="enlas2">
+                    <a class="enlas3" href="">01</a>
+                    <a class="enlas3" href="">02</a>
+                    <a class="enlas3" href=""><img src="ProductosIndex/flecha-removebg-preview.png" width="50px"></a>
+                </nav>
+        </div>
+        <div id="epas1">
+
+        </div>
+        <!------------------------------------------------------------>
+
+        <footer>
+            <div>
+                <img src="imganes/logop-removebg-preview.png" width="300" height="200" data-i="0"
+                    onmouseover="oversocial(this)" onmouseout="outsocial(this)">
+            </div>
+            <div>
+                <h2>Horario :</h2>
+                <p class="celeste">LUN-VIE :10AM-7PM<br>
+                    SABADO :10AM-3PM<br>
+                    DOMINGO : PREVIA COORDINACION</p>
+            </div>
+            <div id="info-a">
+                <h2>Ubicanos :</h2>
+                <p class="celeste">Sector 3 Grupo 28 Manzana J Lote <br>
+                    22, Miraflores 140, Peru</p>
+            </div>
+            <div>
+                <h2>Deliviry :</h2>
+                <p class="celeste">Lima Metropolitana 4 Horas<br>
+                    Despacho Provincia 12 Horas</p>
+            </div>
+            <div>
+                <h2>Contactanos :</h2>
+                <p class="celeste"><i class="fa-solid fa-phone"></i>922407794 - 974674763<br>
+                    <i class="fa-solid fa-envelope"></i> gamingstore2708@gmail.com
+                </p>
+                <h2>Síguenos en :</h2>
+
+                <a class="rede-footer" href="">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="rede-footer" href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="rede-footer" href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="rede-footer" href="">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+    
+        </footer>
+           <!--wthasa -->
+           <div class="whatsapp-fixed">
+            <a target="_blank" href="">
+                <img src="imganes/whatsapp.png" alt="Whatsapp">
+            </a>
+        </div>
+      <!--wthasa -->
+    </div>
+</body>
+
+</html>
+<script src="java/productos.js"></script>
