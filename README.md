@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/cc9e3964-e2d1-48d3-8038-5888d4a060b9)# Proyecto Tienda de Productos Tecnológicos
 
+# Proyecto Tienda de Productos Tecnológicos
 
 ## Descripción del Proyecto
 Este proyecto es una **Tienda de Productos Tecnológicos** desarrollada con **HTML**, **CSS**, y **JavaScript**. Diseñado como parte del **Proyecto de Segundo Ciclo De Mi Universidad**, ofrece una experiencia de compra interactiva y atractiva, permitiendo a los usuarios explorar una variedad de productos tecnológicos.
